@@ -168,12 +168,12 @@ This compiles the code, runs all tests, and generates coverage reports.
 ## Deliverables
 1. **Written Portion**: Answer the four questions above directly on **Gradescope**. Please add all group members in your submission.
 
-2. **Code Portion**: An archive (tar.gz) of your git repository, which contains the four tagged commits for your developed test suites. Submit this to **Gradescope**.
+2. **Code Portion**: An archive (tar.gz) of your git repository, which contains the four tagged commits for your developed test suites. Submit this to **Gradescope** and add all group members to the submission.
 
 ### Steps for turn-in
 One team member should submit both portions to **Gradescope**:
-- Answer the written questions directly in the "In-class Exercise: Coverage (Written)" assignment
-- Upload the code archive to the "In-class Exercise: Coverage (Code)" assignment
+- Answer the written questions directly in the "In-class Exercise: Coverage (Written)" assignment and add all group members
+- Upload the code archive to the "In-class Exercise: Coverage (Code)" assignment and add all group members
 
 ### Creating Your Submission Archive
 
