@@ -187,14 +187,37 @@ This creates a compressed archive containing your entire git repository with all
 
 ## Helpful Tips
 
-### Git Commands
-To tag a commit after completing each coverage criterion, you can use:
+### Tagging Commits on Git
+
+You can tag a specific git commit by running the following commands.
+
+First, check the hash of the commit you would like to tag:
 
 ```bash
-git tag SC    # After completing Statement Coverage
-git tag DC    # After completing Decision Coverage  
-git tag CC    # After completing Condition Coverage
-git tag MCDC  # After completing MCDC
+git log --oneline
+```
+
+You should see something like:
+
+```txt
+410df50 SC
+2a24703 (origin/master, origin/HEAD) Update: `@Ignore` -> `@Disabled`
+4ab15e6 Update: `@Ignore` -> `@Disabled`
+32cbbad Ensure Jacoco test reports are generated on attu@
+3b64ac3 Ensure project runs on Java versions up to 21
+c8d0e30 Remove mentions of ant
+```
+
+Then, copy the commit hash you would like to tag, and add a tag to it by running:
+
+```bash
+git tag <tag_name> <commit_hash>
+```
+
+For example,
+
+```bash
+git tag SC 410df50
 ```
 
 
