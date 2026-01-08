@@ -130,7 +130,7 @@ This compiles the code, runs all tests, and generates coverage reports.
 
    b. Which instrumentation approach is preferable? Briefly explain why?
 
-2. Which coverage criterion does Jacoco’s branch coverage correspond to? Why?
+2. When interpreting JaCoCo’s branch coverage with respect to the Java source code, which coverage criterion does it correspond to? Why?
 
 3. Give a definition of "*test redundancy*", using a code coverage criterion and
    provide an example of a redundant test for one of your test suites
