@@ -18,4 +18,4 @@ The Triangle program classifies triangles based on the lengths of their three si
 1. **Run tests with coverage**: `./gradlew test`
 2. **View coverage report**: Open `build/reports/jacoco/test/html/index.html` in your browser
 3. **Tag your progress**: Use `git tag SC`, `git tag DC`, etc. after each coverage milestone
-4. **Create submission**: Use `tar -czf coverage.tar.gz coverage/` to create your submission archive
+4. **Create submission**: Use `tar -czf coverage.tar.gz cse403-coverage/` to create your submission archive
