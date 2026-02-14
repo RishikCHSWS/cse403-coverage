@@ -32,5 +32,14 @@ public void testTable() {
     testTriangle(INVALID, 2, 2, 5);
     testTriangle(ISOSCELES, 4, 3, 4);
     testTriangle(ISOSCELES, 3, 4, 4);
+    testTriangle(INVALID, 8, 4, 4);
+    testTriangle(INVALID, 2, 10, 2);
+    testTriangle(INVALID, 10, 2, 2);
+    testTriangle(INVALID, 1, -1, 1); 
+    testTriangle(INVALID, 1, 1, -1); 
+    testTriangle(INVALID, 4, 3, 8); 
+    testTriangle(INVALID, 3, 10, 4);
+    testTriangle(INVALID, 10, 3, 2);
+
 }
 }
