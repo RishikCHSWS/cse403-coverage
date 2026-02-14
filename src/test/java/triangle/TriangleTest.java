@@ -6,6 +6,8 @@ import static triangle.Triangle.Type.*;
 
 import org.junit.jupiter.api.Test;
 
+import triangle.Triangle.Type;
+
 /** Test class for the Triangle implementation. */
 public class TriangleTest {
 
@@ -21,7 +23,14 @@ public class TriangleTest {
   }
 
   @Test
-  public void testTable() {
-    testTriangle(INVALID, 0, 0, 0);
-  }
+public void testTable() {
+    testTriangle(INVALID, 0, 1, 1);
+    testTriangle(SCALENE, 3, 4, 5);
+    testTriangle(INVALID, 1, 2, 3);
+    testTriangle(EQUILATERAL, 5, 5, 5);
+    testTriangle(ISOSCELES, 4, 4, 3);
+    testTriangle(INVALID, 2, 2, 5);
+    testTriangle(ISOSCELES, 4, 3, 4);
+    testTriangle(ISOSCELES, 3, 4, 4);
+}
 }
